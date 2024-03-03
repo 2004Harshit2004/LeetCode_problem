@@ -10,6 +10,9 @@
  */
 class Solution {
 public:
+
+    // Time complexity=O(n)
+
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         ListNode* temp=head;
         ListNode* hg = head;
